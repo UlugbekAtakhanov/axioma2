@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background: #0E0E0E;
+}
+
+.main-container {
+  max-width: 1300px;
+  margin-inline: auto;
+}
+
+@media (width < 1300px) {
+  .main-container {
+    padding-inline: 20px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: lightgray;
+}
+
+::-webkit-scrollbar-thumbhover {
+  background: indigo;
+}
