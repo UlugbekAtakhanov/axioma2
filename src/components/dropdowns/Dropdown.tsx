@@ -1,5 +1,5 @@
 import { Menu, Transition } from '@headlessui/react'
-import { ArrowLeftOnRectangleIcon, ChevronDownIcon, DocumentDuplicateIcon, PencilIcon, PresentationChartLineIcon } from '@heroicons/react/24/outline'
+import { DocumentDuplicateIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
 import arrow_down from "../../assets/arrow_down.svg"
 
