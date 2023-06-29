@@ -1,4 +1,3 @@
-import fields1 from "../../assets/fields1.jpg"
 
 const Container3 = () => {
     return (
