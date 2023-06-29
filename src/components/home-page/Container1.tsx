@@ -11,7 +11,7 @@ const Container1 = () => {
                 <img className="h-full object-cover" src={home_page1} alt="alt" />
             </div>
 
-            <div className="absolute inset-0 bg-slate-950/40 flex flex-col ">
+            <div className="absolute inset-0 bg-slate-950/60 flex flex-col ">
                 <Navbar />
 
                 <div className="flex-1 flex justify-center items-center flex-col">

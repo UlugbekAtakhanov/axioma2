@@ -33,3 +33,29 @@ body {
 ::-webkit-scrollbar-thumbhover {
   background: indigo;
 }
+
+.saira {
+  font-family: 'Saira Stencil One', cursive;
+}
+
+.sonsie {
+  font-family: 'Sonsie One', cursive;
+}
+
+.text-border {
+  color: black;
+  text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+/* .text-border:hover {
+  color: black;
+  text-shadow:
+    -1px -1px 0 #F8EB25,
+    1px -1px 0 #F8EB25,
+    -1px 1px 0 #F8EB25,
+    1px 1px 0 #F8EB25;
+} */
