@@ -1,4 +1,4 @@
-import { useMotionValue, motion, useTransform } from "framer-motion"
+import { motion } from "framer-motion"
 import fields1 from "../../assets/fields1.jpg"
 
 const Container2 = () => {
