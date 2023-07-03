@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom"
 import hamburger from "../../assets/hamburger.svg"
 import Dropdown from "../dropdowns/Dropdown"
+import { motion } from "framer-motion"
 
 const Navbar = () => {
     return (
-        <div className="main-container py-6 flex justify-between items-center w-full">
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 3.5 }} className="main-container py-6 flex justify-between items-center w-full">
 
             <div className="flex items-center gap-8 text-white text-sm">
                 <div><img src={hamburger} alt="img" className="w-[25px]" /></div>
@@ -37,7 +38,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-        </div>
+        </motion.div>
     )
 }
 

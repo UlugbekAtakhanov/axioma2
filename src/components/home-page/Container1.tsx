@@ -1,6 +1,8 @@
 import home_page1 from "../../assets/home_page1.png"
 import Navbar from "../navbar/Navbar"
 import logo_big from "../../assets/logo_big.svg"
+import YellowButton from "../YellowButton"
+import { motion } from "framer-motion"
 
 
 const Container1 = () => {
@@ -15,12 +17,13 @@ const Container1 = () => {
                 <Navbar />
 
                 <div className="flex-1 flex justify-center items-center flex-col">
-                    <img src={logo_big} alt="img" />
+                    <motion.img
+                        initial={{ opacity: 0, y: 100 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: .4, delay: 3.5, type: "spring", stiffness: 150 }}
+                        src={logo_big} alt="img" />
                     <p className="text-lg text-white mt-10 mb-14 font-semibold">КУРСЫ СОВРЕМЕННЫХ ПРОФЕССИЙ</p>
-                    <button className="border text-lg text-customYellow py-4 px-12 relative group">
-                        <span className="group-hover:opacity-0 transition-all ">LEARN MORE</span>
-                        <span className="absolute right-0 left-0 bottom-0 bg-customYellow  text-black flex justify-center items-center h-0 group-hover:h-full transition-all overflow-hidden opacity-0 group-hover:opacity-100">LEARN MORE</span>
-                    </button>
+                    <YellowButton title="LEARN MORE" />
                 </div>
 
             </div>

@@ -1,5 +1,5 @@
 import Container1 from "../components/home-page/Container1"
-import Container2 from "../components/home-page/Container2"
+import Container2 from "../components/home-page/container2/Container2"
 import Container3 from "../components/home-page/Container3"
 import Container4 from "../components/home-page/Container4"
 import Container5 from "../components/home-page/Container5"
