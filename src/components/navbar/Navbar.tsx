@@ -14,6 +14,7 @@ const Navbar = () => {
                 <Link className="hover:text-customYellow" to="#" >ПОРТФОЛИО</Link>
                 <Link className="hover:text-customYellow" to="#" >КОНТАКТЫ</Link>
                 <Link className="hover:text-customYellow" to="#" >ПОЗВОНИТЬ</Link>
+
             </div>
 
             <div>

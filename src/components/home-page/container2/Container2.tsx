@@ -1,6 +1,6 @@
 import classNames from "classnames"
 import { motion } from "framer-motion"
-import { Fragment, useState } from "react"
+import { Fragment, useRef, useState } from "react"
 import c3 from "../../../assets/c3.png"
 import fields1 from "../../../assets/fields1.jpg"
 import YellowButton from "../../YellowButton"

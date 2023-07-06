@@ -17,6 +17,7 @@ const List = ({ children, itemId, setIsInViewId }: ListProps) => {
             setIsInViewId(itemId)
         }
     }, [inView])
+
     return (
         <p ref={ref} className={classNames(
             "text-wrap py-14 text-border tracking-wider text-5xl font-bold  mb-4 cursor-pointer",
