@@ -34,7 +34,7 @@ const Container2 = () => {
             <div className="flex ml-14 mb-12 items-start">
                 <ul className="flex-1 py-[50vh]">
                     {arr.map((item) => (
-                        <li key={item.id}>
+                        <li key={item.id} className="">
                             <List itemId={item.id} setIsInViewId={setIsInViewId}>
                                 {item.title}
                             </List>

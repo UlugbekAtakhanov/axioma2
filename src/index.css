@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background: #0E0E0E;
+  overflow-x: hidden;
 }
 
 .main-container {
@@ -19,7 +23,11 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 2px;
+  width: 3px;
+}
+
+::-webkit-scrollbar:hover {
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -27,11 +35,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: lightgray;
-}
-
-::-webkit-scrollbar-thumbhover {
-  background: indigo;
+  background: yellow;
 }
 
 .saira {
