@@ -48,11 +48,12 @@ body {
 
 .text-border {
   color: black;
-  text-shadow:
+  /* text-shadow:
     -1px -1px 0 white,
     1px -1px 0 white,
     -1px 1px 0 white,
-    1px 1px 0 white;
+    1px 1px 0 white; */
+    filter: drop-shadow(3px 3px 10px rgba(255, 255, 255, 0.151));
 }
 
 .text-wrap {
